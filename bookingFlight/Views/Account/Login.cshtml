@@ -1,0 +1,43 @@
+﻿@model bookingFlight.Models.KhachHang
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";  // Assuming you're using a layout
+}
+
+@section Styles {
+    <link rel="stylesheet" href="~/Asset/LoginPage.css" />
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group row">
+        @Html.LabelFor(model => model.TaiKhoan, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(model => model.TaiKhoan, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.TaiKhoan, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group row">
+        @Html.LabelFor(model => model.MatKhau, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.PasswordFor(model => model.MatKhau, new { @class = "form-control" })
+            @Html.ValidationMessageFor(model => model.MatKhau, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-10 offset-md-2">
+            @Html.ActionLink("Create Your Account", "Register", null, new { @class = "btn btn-secondary" })
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-md-10 offset-md-2 text-center">
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </div>
+}
