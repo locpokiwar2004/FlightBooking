@@ -1,0 +1,58 @@
+﻿@model bookingFlight.Models.VeMayBay
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>VeMayBay</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.NgayDat)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.NgayDat)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.GiaVe)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.GiaVe)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ChuyenBay.MaSB_Di)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ChuyenBay.MaSB_Di)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.KhachHang.HoTen)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.KhachHang.HoTen)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MaVe }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
