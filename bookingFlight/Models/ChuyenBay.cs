@@ -26,8 +26,8 @@ namespace bookingFlight.Models
         public Nullable<System.DateTime> NgayGioDi { get; set; }
         public Nullable<System.DateTime> NgayGioDen { get; set; }
     
-        public virtual SanBay SanBay { get; set; }
-        public virtual SanBay SanBay1 { get; set; }
+        public virtual SanBay SanBayDi { get; set; }
+        public virtual SanBay SanBayDen { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<VeMayBay> VeMayBays { get; set; }
     }
