@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\code\\bookingFlight - Copy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\asset\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\asset\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\models\\sanbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\models\\model1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\models\\vemaybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\models\\vemaybay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\models\\chuyenbay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\asset\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\asset\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|c:\\code\\bookingflight - copy\\bookingflight\\views\\home\\searchflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\views\\home\\searchflights.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\asset\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\asset\\mainlayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\asset\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\asset\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|solutionrelative:bookingflight\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5326B86D-B2A0-44D6-A326-5844646ED7B6}|bookingFlight\\bookingFlight.csproj|C:\\code\\bookingFlight - Copy\\bookingflight\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,36 +62,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\Model1.edmx",
-              "RelativeDocumentMoniker": "bookingFlight\\Models\\Model1.edmx",
-              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "bookingFlight\\Models\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2024-07-13T16:34:00.744Z",
-              "EditorCaption": " [Diagram1]"
+              "DocumentIndex": 3,
+              "Title": "SanBay.cs",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\SanBay.cs",
+              "RelativeDocumentMoniker": "bookingFlight\\Models\\SanBay.cs",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\SanBay.cs",
+              "RelativeToolTip": "bookingFlight\\Models\\SanBay.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:58:36.326Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Model1.cs",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\Model1.cs",
+              "RelativeDocumentMoniker": "bookingFlight\\Models\\Model1.cs",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\Model1.cs",
+              "RelativeToolTip": "bookingFlight\\Models\\Model1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:58:28.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VeMayBay.cs",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\VeMayBay.cs",
+              "RelativeDocumentMoniker": "bookingFlight\\Models\\VeMayBay.cs",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\VeMayBay.cs",
+              "RelativeToolTip": "bookingFlight\\Models\\VeMayBay.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:58:14.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChuyenBay.cs",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\ChuyenBay.cs",
+              "RelativeDocumentMoniker": "bookingFlight\\Models\\ChuyenBay.cs",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Models\\ChuyenBay.cs",
+              "RelativeToolTip": "bookingFlight\\Models\\ChuyenBay.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:57:36.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Web.config",
+              "RelativeDocumentMoniker": "bookingFlight\\Web.config",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Web.config",
+              "RelativeToolTip": "bookingFlight\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-14T06:04:58.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SearchFlights.cshtml",
+              "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Home\\SearchFlights.cshtml",
+              "RelativeDocumentMoniker": "bookingFlight\\Views\\Home\\SearchFlights.cshtml",
+              "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Home\\SearchFlights.cshtml",
+              "RelativeToolTip": "bookingFlight\\Views\\Home\\SearchFlights.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T18:20:39.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "bookingFlight\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Controllers\\HomeController.cs",
               "RelativeToolTip": "bookingFlight\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-12T15:50:48.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "mainlayout.css",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Asset\\mainlayout.css",
               "RelativeDocumentMoniker": "bookingFlight\\Asset\\mainlayout.css",
@@ -84,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "bookingFlight\\Views\\Shared\\_Layout.cshtml",
@@ -97,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "bookingFlight\\Views\\_ViewStart.cshtml",
@@ -105,25 +191,24 @@
               "RelativeToolTip": "bookingFlight\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T15:19:58.284Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T15:19:58.284Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "bookingFlight\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "bookingFlight\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswBMAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-12T15:17:16.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "style.css",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Asset\\style.css",
               "RelativeDocumentMoniker": "bookingFlight\\Asset\\style.css",
@@ -136,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\code\\bookingFlight - Copy\\bookingFlight\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "bookingFlight\\Views\\Shared\\Error.cshtml",
@@ -144,8 +229,7 @@
               "RelativeToolTip": "bookingFlight\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-12T15:16:58.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-12T15:16:58.058Z"
             }
           ]
         }

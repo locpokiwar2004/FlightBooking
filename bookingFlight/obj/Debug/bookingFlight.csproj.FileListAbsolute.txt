@@ -156,3 +156,7 @@ C:\code\bookingFlight - Copy\bookingFlight\obj\Debug\bookingFlight.csproj.CoreCo
 C:\code\bookingFlight - Copy\bookingFlight\obj\Debug\bookingF.8E3728A0.Up2Date
 C:\code\bookingFlight - Copy\bookingFlight\obj\Debug\bookingFlight.dll
 C:\code\bookingFlight - Copy\bookingFlight\obj\Debug\bookingFlight.pdb
+C:\code\bookingFlight - Copy\bookingFlight\bin\EntityFramework.dll
+C:\code\bookingFlight - Copy\bookingFlight\bin\EntityFramework.SqlServer.dll
+C:\code\bookingFlight - Copy\bookingFlight\bin\EntityFramework.xml
+C:\code\bookingFlight - Copy\bookingFlight\bin\EntityFramework.SqlServer.xml
