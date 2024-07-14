@@ -11,8 +11,7 @@ namespace bookingFlight.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
+    
     public partial class KhachHang
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -20,19 +19,18 @@ namespace bookingFlight.Models
         {
             this.VeMayBays = new HashSet<VeMayBay>();
         }
-
+    
         public string MaKH { get; set; }
         public string HoTen { get; set; }
         public Nullable<System.DateTime> NgaySinh { get; set; }
-        public string GioiTinh { get; set; } 
+        public string GioiTinh { get; set; }
         public string DiaChi { get; set; }
         public string SDT { get; set; }
         public string Email { get; set; }
         public string LoaiKhach { get; set; }
-        [Required(ErrorMessage = "Username is required.")]
         public string TaiKhoan { get; set; }
         public string MatKhau { get; set; }
-
+    
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<VeMayBay> VeMayBays { get; set; }
     }

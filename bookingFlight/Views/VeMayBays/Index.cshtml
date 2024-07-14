@@ -1,0 +1,59 @@
+﻿@model IEnumerable<bookingFlight.Models.VeMayBay>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayDat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GiaVe)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChuyenBay.MaSB_Di)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KhachHang.HoTen)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayDat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaVe)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChuyenBay.MaSB_Di)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KhachHang.HoTen)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.MaVe }) |
+                @Html.ActionLink("Details", "Details", new { id=item.MaVe }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.MaVe })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

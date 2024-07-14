@@ -1,0 +1,53 @@
+﻿@model IEnumerable<bookingFlight.Models.SanBay>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThanhPho)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuocGia)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ThanhPho)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuocGia)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.MaSB }) |
+                @Html.ActionLink("Details", "Details", new { id=item.MaSB }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.MaSB })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

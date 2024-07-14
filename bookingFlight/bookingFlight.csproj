@@ -155,8 +155,12 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\ChuyenBaysController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\KhachHangsController.cs" />
+    <Compile Include="Controllers\SanBaysController.cs" />
+    <Compile Include="Controllers\VeMayBaysController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -303,6 +307,23 @@
     <Content Include="Views\KhachHangs\Index.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\ChuyenBays\Create.cshtml" />
+    <Content Include="Views\ChuyenBays\Delete.cshtml" />
+    <Content Include="Views\ChuyenBays\Details.cshtml" />
+    <Content Include="Views\ChuyenBays\Edit.cshtml" />
+    <Content Include="Views\ChuyenBays\Index.cshtml" />
+    <Content Include="Views\SanBays\Create.cshtml" />
+    <Content Include="Views\SanBays\Delete.cshtml" />
+    <Content Include="Views\SanBays\Details.cshtml" />
+    <Content Include="Views\SanBays\Edit.cshtml" />
+    <Content Include="Views\SanBays\Index.cshtml" />
+    <Content Include="Views\VeMayBays\Create.cshtml" />
+    <Content Include="Views\VeMayBays\Delete.cshtml" />
+    <Content Include="Views\VeMayBays\Details.cshtml" />
+    <Content Include="Views\VeMayBays\Edit.cshtml" />
+    <Content Include="Views\VeMayBays\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
