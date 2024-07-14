@@ -1,0 +1,51 @@
+﻿@model bookingFlight.Models.ChuyenBay
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ChuyenBay</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayGioDi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayGioDi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NgayGioDen)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NgayGioDen)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SanBay.TenSB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SanBay.TenSB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SanBay1.TenSB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SanBay1.TenSB)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MaCB }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
