@@ -21,6 +21,7 @@
         <AssociationConnector Association="SellingTicketModel.FK_VeMayBay_KhachHang" ManuallyRouted="false" />
         <AssociationConnector Association="SellingTicketModel.FK_NhanVien_PhongBan" ManuallyRouted="false" />
         <AssociationConnector Association="SellingTicketModel.HoaDon_ThanhToan" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="SellingTicketModel.Admin_" Width="1.5" PointX="8.375" PointY="8.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

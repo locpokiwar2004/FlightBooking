@@ -19,7 +19,7 @@
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/Flights">Flights</a>
+                    <a href="ChuyenBays/SearchFlights">Flights</a>
                 </li>
                 @if (Session["UserName"] == null)
                 {
@@ -28,6 +28,10 @@
                     </li>
                     <li>
                         <a href="/Account/Register">Register</a>
+                    </li>
+              
+                    <li>
+                        <a href="/Admin_/Login">Admin Login</a>
                     </li>
                 }
                 else

@@ -15,6 +15,7 @@ namespace bookingFlight.Controllers
         private SellingTicketEntities db = new SellingTicketEntities();
 
         // GET: ChuyenBays
+        [Authorize]
         public ActionResult Index()
         {
             var chuyenBays = db.ChuyenBays.Include(c => c.SanBay).Include(c => c.SanBay1);
@@ -131,6 +132,19 @@ namespace bookingFlight.Controllers
                 db.Dispose();
             }
             base.Dispose(disposing);
+        }
+        [Authorize]
+        public ActionResult SearchFlights(string from, string to, DateTime? departDateTime)
+        {
+            var flights = db.ChuyenBays
+                            .Where(cb => (string.IsNullOrEmpty(from) || cb.MaSB_Di == from) &&
+                                         (string.IsNullOrEmpty(to) || cb.MaSB_Den == to) &&
+                                         (!departDateTime.HasValue || DbFunctions.TruncateTime(cb.NgayGioDi) == DbFunctions.TruncateTime(departDateTime)))
+                            .Include(c => c.SanBay)
+                            .Include(c => c.SanBay1)
+                            .ToList();
+
+            return View(flights);
         }
     }
 }

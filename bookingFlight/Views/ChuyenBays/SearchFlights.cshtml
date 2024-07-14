@@ -1,0 +1,43 @@
+﻿@model IEnumerable<bookingFlight.Models.ChuyenBay>
+
+@{
+    ViewBag.Title = "Available Flights";
+}
+
+<h2>Available Flights</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Flight Number</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Departure Time</th>
+            <th>Arrival Time</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var flight in Model)
+        {
+            <tr>
+                <td>@flight.MaCB</td>
+                <td>@flight.SanBay.TenSB</td>
+                <td>@flight.SanBay1.TenSB</td>
+                <td>@flight.NgayGioDi</td>
+                <td>@flight.NgayGioDen</td>
+                <td>
+
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <p>Please <a href="@Url.Action("Login", "Account")">login</a> to book a ticket.</p>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Create", "VeMayBays", new { flightId = flight.MaCB })" class="btn btn-primary">Book Ticket</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
