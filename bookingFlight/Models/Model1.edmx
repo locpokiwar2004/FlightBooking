@@ -5,6 +5,14 @@
     <!-- SSDL content -->
     <edmx:StorageModels>
     <Schema Namespace="SellingTicketModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin_">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="MatKhau" Type="nvarchar" MaxLength="100" />
+        </EntityType>
         <EntityType Name="ChuyenBay">
           <Key>
             <PropertyRef Name="MaCB" />
@@ -198,6 +206,7 @@
           </ReferentialConstraint>
         </Association>
         <EntityContainer Name="SellingTicketModelStoreContainer">
+          <EntitySet Name="Admin_" EntityType="Self.Admin_" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="ChuyenBay" EntityType="Self.ChuyenBay" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="DichVu" EntityType="Self.DichVu" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="HoaDon" EntityType="Self.HoaDon" Schema="dbo" store:Type="Tables" />
@@ -461,7 +470,16 @@
             <End Role="HoaDon" EntitySet="HoaDons" />
             <End Role="ThanhToan" EntitySet="ThanhToans" />
           </AssociationSet>
+          <EntitySet Name="Admin_" EntityType="SellingTicketModel.Admin_" />
         </EntityContainer>
+        <EntityType Name="Admin_">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="MatKhau" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -573,6 +591,15 @@
               <ScalarProperty Name="MaTT" ColumnName="MaTT" />
             </EndProperty>
           </AssociationSetMapping>
+          <EntitySetMapping Name="Admin_">
+            <EntityTypeMapping TypeName="SellingTicketModel.Admin_">
+              <MappingFragment StoreEntitySet="Admin_">
+                <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>

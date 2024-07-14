@@ -34,5 +34,6 @@ namespace bookingFlight.Models
         public virtual DbSet<SanBay> SanBays { get; set; }
         public virtual DbSet<ThanhToan> ThanhToans { get; set; }
         public virtual DbSet<VeMayBay> VeMayBays { get; set; }
+        public virtual DbSet<Admin_> Admin_ { get; set; }
     }
 }

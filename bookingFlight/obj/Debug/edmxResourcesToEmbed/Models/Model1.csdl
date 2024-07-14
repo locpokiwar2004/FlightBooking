@@ -216,5 +216,14 @@
       <End Role="HoaDon" EntitySet="HoaDons" />
       <End Role="ThanhToan" EntitySet="ThanhToans" />
     </AssociationSet>
+    <EntitySet Name="Admin_" EntityType="SellingTicketModel.Admin_" />
   </EntityContainer>
+  <EntityType Name="Admin_">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MatKhau" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
 </Schema>

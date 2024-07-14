@@ -3,6 +3,7 @@ using System.Data.Entity.Validation;
 using System;
 using System.Linq;
 using System.Web.Mvc;
+using System.Web.Security;
 
 namespace bookingFlight.Controllers
 {
@@ -19,24 +20,36 @@ namespace bookingFlight.Controllers
         // POST: Account/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Login(KhachHang model)
+        public ActionResult Login(KhachHang model, string returnUrl)
         {
             if (ModelState.IsValid)
             {
                 var user = db.KhachHangs.FirstOrDefault(u => u.TaiKhoan == model.TaiKhoan && u.MatKhau == model.MatKhau);
                 if (user != null)
                 {
-                    // Set the user in session (or use other authentication methods)
+                    // Set the user in session
                     Session["UserID"] = user.MaKH.ToString();
                     Session["UserName"] = user.TaiKhoan.ToString();
-                    // Redirect to Dashboard or Home page after successful login
-                    return RedirectToAction("Index", "Home");
+
+                    // Create Forms Authentication cookie
+                    FormsAuthentication.SetAuthCookie(user.TaiKhoan, false);
+
+                    // Redirect to the return URL if it is valid
+                    if (Url.IsLocalUrl(returnUrl) && !string.IsNullOrEmpty(returnUrl))
+                    {
+                        return Redirect(returnUrl);
+                    }
+                    else
+                    {
+                        return RedirectToAction("Index", "Home");
+                    }
                 }
                 else
                 {
                     ModelState.AddModelError("", "Invalid username or password.");
                 }
             }
+            ViewBag.ReturnUrl = returnUrl;
             return View(model);
         }
 

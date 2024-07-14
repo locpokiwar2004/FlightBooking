@@ -106,5 +106,14 @@
         <ScalarProperty Name="MaTT" ColumnName="MaTT" />
       </EndProperty>
     </AssociationSetMapping>
+    <EntitySetMapping Name="Admin_">
+      <EntityTypeMapping TypeName="SellingTicketModel.Admin_">
+        <MappingFragment StoreEntitySet="Admin_">
+          <ScalarProperty Name="MatKhau" ColumnName="MatKhau" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>
